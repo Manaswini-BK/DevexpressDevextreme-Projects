@@ -1,0 +1,94 @@
+.selectFlex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+.selectFlex > div{
+    padding:0  6px;
+    width:280px;
+}
+.dx-dropdowneditor-active .dx-texteditor-buttons-container{
+    background: transparent !important;
+}
+/*#searchButton{
+    margin-top:14px !important;
+}*/
+/*#header-title{
+    font-size:24px;
+    font-weight: bold;
+    padding: 0 10px 0 4px;
+}*/
+
+.header-title{
+    font-size:24px;
+    font-weight: bold;
+    padding: 0 10px 10px 4px;
+    color:#00305E;
+}
+
+#form{
+    padding: 5px;
+}
+.date-flex{
+    display:flex;
+    flex-direction: column;
+}
+.date-flex .dx-field-value{
+    width:280px;
+}
+input.dx-texteditor-input{
+    border-bottom: none;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#kpigridContainer .dx-texteditor-input-container {
+    border-bottom: 1px solid #677e8c;
+}
+h1{
+    margin:0;
+}
+/*h3.h3text-color {
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: initial;
+}*/
+
+.dx-box-item-content .dx-field-item-label-text {
+    font-size: 15px; 
+    font-family: "Noto Sans";
+    font-weight: 300;
+}
+
+.dx-field-item-label-content {
+    text-align:left;
+    margin-right: 15px;
+}
+
+.dx-field-item-label-text {
+        color: #000000;
+        text-align:left;
+        margin-right: 15px;
+}
+
+.dx-datagrid-rowsview .dx-texteditor-input{
+    font-size: 15px; 
+    font-family: "Noto Sans";
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.dx-datagrid-form-buttons-container {  
+    font-size: 15px; 
+    font-family: "Noto Sans";
+    font-weight: bold;
+
+  }
+
+  .dx-button-content{  
+    font-size: 15px; 
+    font-family: "Noto Sans";
+    font-weight: bold;
+    color:#00305E;
+  }

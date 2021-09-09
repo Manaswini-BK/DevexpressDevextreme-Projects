@@ -1,0 +1,75 @@
+{
+    "typeName": "QualityVariables",
+    "type": "",
+    "pluginId": "QualityVariables",
+    "category": "General",
+    "description": {
+        "title": "QualityVariables",
+        "overview": "QualityVariables Grid is used to show the QualityVariables status in the grid format."
+    },
+    "info": {
+        "version": "0.0.1",
+        "updated": "August 01, 2020",
+        "size": "200KiB",
+        "developer": "GE Digital"
+    },
+    "origin": "custom",
+    "customIcon": "/custom/default/QualityVariables/images/preparedlots.png",
+    "placeholder": "/custom/default/QualityVariables/images/preparedlots.png",
+    "preview": "/custom/default/QualityVariables/images/preparedlots.png",
+    "scripts": [
+        "dx.common.css",
+        "mestheme.css",
+        "pluginLocalizer.js",
+        "locale-settings.js",
+        "dx.all.js"
+    ],
+    "libraries": {
+        "devextreme": {
+            "scriptName": "dx.all",
+            "version": "20.1.7"
+        }
+    },
+    "isNotAllowToAddFields": true,
+    "fieldsDescription" :{        
+        "DataGridJsonData": "The <b>DataGridJsonData</b> field is used to set the DataGrid Json Data. <br>"        
+	},
+    "data": [
+        {
+            "type":"single",
+            "id":"QualityVariablesJson", 
+            "title":"QualityVariablesJson",
+            "fieldName":"QualityVariablesJson"
+        },
+        {
+            "type":"single",
+            "id":"ApplicationTestJson",
+            "title":"ApplicationTestJson",
+            "fieldName":"ApplicationTestJson"
+        }        
+    ],
+    "commands":[
+		{
+			"title": "SegmentActualId", 
+			"id": "SegmentActualId",
+			"targets":[
+				{
+					"title": "SegmentActualId",
+					"id":"SegmentActualId"
+				}
+			]
+        },
+        {
+            "title":"RefreshButtonClicked",
+            "id":"RefreshButtonClicked",
+            "targets":[{
+                "title":"RefreshButtonClicked",
+                "id":"RefreshButtonClicked"
+            }]
+        }
+	],
+    "mock":{
+        "DepartmentJsonData":56,
+        "DepartmentValue":"DepartmentId"
+    }
+}

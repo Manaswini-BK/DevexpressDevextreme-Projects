@@ -1,0 +1,231 @@
+{
+    "version": "19.1.4",
+    "date": "2/25/2019",
+    "themeId": "1",
+    "hue": null,
+    "items": [
+        {
+            "key": "@base-font-family",
+            "value": "\"GE Inspira Sans\", sans-serif"
+        },
+        {
+            "key": "@base-text-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@base-bg",
+            "value": "#ffffff"
+        },
+        {
+            "key": "@base-accent",
+            "value": "#000"
+        },
+        {
+            "key": "@base-border-color",
+            "value": "#889aa5"
+        },
+        {
+            "key": "@base-border-radius",
+            "value": "0px"
+        },
+        {
+            "key": "@list-focused-bg",
+            "value": "#337ab7"
+        },
+        {
+            "key": "@base-invalid-color",
+            "value": "#f34336"
+        },
+        {
+            "key": "@texteditor-border-color",
+            "value": "#889aa5"
+        },
+        {
+            "key": "@texteditor-bg",
+            "value": "transparent"
+        },
+        {
+            "key": "@texteditor-focused-border-color",
+            "value": "#007acc"
+        },
+        {
+            "key": "@texteditor-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@button-normal-color",
+            "value": "#007acc"
+        },
+        {
+            "key": "@button-normal-bg",
+            "value": "transparent"
+        },
+        {
+            "key": "@button-normal-border-color",
+            "value": "#889aa5"
+        },
+        {
+            "key": "@button-default-bg",
+            "value": "#d8e0e5"
+        },
+        {
+            "key": "@button-default-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@button-default-border-color",
+            "value": "transparent"
+        },
+        {
+            "key": "@list-border-color",
+            "value": "#677e8c"
+        },
+        {
+            "key": "@list-item-selected-bg",
+            "value": "#09819c"
+        },
+        {
+            "key": "@list-item-active-bg",
+            "value": "#09819c"
+        },
+        {
+            "key": "@toast-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@toast-info-bg",
+            "value": "#1479c9"
+        },
+        {
+            "key": "@toast-warning-bg",
+            "value": "#ff8b3a"
+        },
+        {
+            "key": "@toast-error-bg",
+            "value": "#fec600"
+        },
+        {
+            "key": "@toast-success-bg",
+            "value": "#7fae1b"
+        },
+        {
+            "key": "@dropdowneditor-button-hover-bg",
+            "value": "#ebeff2"
+        },
+        {
+            "key": "@dropdowneditor-button-active-bg",
+            "value": "#09819c"
+        },
+        {
+            "key": "@tabs-border-color",
+            "value": "#b6c3cc"
+        },
+        {
+            "key": "@tabs-tab-hover-bg",
+            "value": "white"
+        },
+        {
+            "key": "@slider-range-bg",
+            "value": "#007acc"
+        },
+        {
+            "key": "@progressbar-bg",
+            "value": "#b5e5fd"
+        },
+        {
+            "key": "@progressbar-range-bg",
+            "value": "#007acc"
+        },
+        {
+            "key": "@pager-page-selected-color",
+            "value": "#677e8c"
+        },
+        {
+            "key": "@datagrid-base-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@datagrid-border-color",
+            "value": "#677e8c"
+        },
+        {
+            "key": "@datagrid-columnchooser-item-color",
+            "value": "#677e8c"
+        },
+        {
+            "key": "@datagrid-nodata-color",
+            "value": "#889aa5"
+        },
+        {
+            "key": "@datagrid-search-color",
+            "value": "#fff"
+        },
+        {
+            "key": "@datagrid-row-alternation-bg",
+            "value": "#ffffff"
+        },
+        {
+            "key": "@menu-popup-border-color",
+            "value": "#d8e0e5"
+        },
+        {
+            "key": "@calendar-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@calendar-header-color",
+            "value": "#d8e0e5"
+        },
+        {
+            "key": "@calendar-cell-selected-bg",
+            "value": "#09819c"
+        },
+        {
+            "key": "@calendar-border-color",
+            "value": "#fff"
+        },
+        {
+            "key": "@tooltip-color",
+            "value": "#2c404c"
+        },
+        {
+            "key": "@tooltip-border-color",
+            "value": "#d8e0e5"
+        },
+        {
+            "key": "@treeview-focused-bg",
+            "value": "#09819c"
+        },
+        {
+            "key": "@treeview-hover-bg",
+            "value": "#ebeff2"
+        },
+        {
+            "key": "@treeview-item-selected-color",
+            "value": "#fff"
+        },
+        {
+            "key": "@form-field-item-color",
+            "value": "#677e8c"
+        },
+        {
+            "key": "@datagrid-group-row-color",
+            "value": "rgba(35, 52, 63, 1)"
+        },
+        {
+            "key": "@datagrid-selection-bg",
+            "value": "rgba(226, 232, 237, 1)"
+        },
+        {
+            "key": "@datagrid-focused-border-color",
+            "value": "rgba(0, 122, 204, 1)"
+        },
+        {
+            "key": "@selectbox-list-bg",
+            "value": "rgba(255, 255, 255, 1)"
+        }
+    ],
+    "baseTheme": "generic.light",
+    "outputColorScheme": "custom-scheme",
+    "makeSwatch": false
+}
