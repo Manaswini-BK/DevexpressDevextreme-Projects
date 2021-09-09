@@ -1,0 +1,98 @@
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- DevExtreme themes -->
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/20.2.5/css/dx.common.css">
+    <link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/20.2.5/css/dx.light.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts/mestheme.css">
+ 
+    <!-- DevExtreme library -->
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/20.2.5/js/dx.all.js"></script>
+     <!--<script type="text/javascript" src="libraries/devextreme/FileSaver.js"></script>-->
+     <!--<script type="text/javascript" src="https://cdn3.devexpress.com/jslib/20.2.5/js/dx-quill.min.js"></script>-->
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="scripts/pluginLocalizer.js"></script>
+    <!-- For Export to Excel  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.0/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/3.3.1/exceljs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js"></script>>
+</head>
+
+<div style="display:flex;flex-direction: column;">
+    <div class="header-title">Downtime Breakdown</div>
+    <div id="loading">
+        <div class="dx-viewport  selectFlex">
+            <div class="dx-field-value">
+                <h3 class="h3text-color">Department</h3>
+                <div id="department" class="dx-selectbox"></div>
+            </div>
+            <div class="dx-field-value">
+                <h3 class="h3text-color">Line</h3>
+                <div id="lineList"></div>
+            </div>
+            <div class="dx-field-value">
+                <h3 class="h3text-color">Unit</h3>
+                <div id="unit"></div>
+            </div>
+        </div>
+        <div class="dx-viewport  selectFlex">
+            <div class="date-flex">
+                <h3 class="h3text-color">Start Time</h3>
+                <!--<div class="dx-field-value"> -->
+                    <div>
+                    <div id="start-time"></div>
+                </div>
+            </div>
+            <div class="date-flex">
+                <h3 class="h3text-color">End Time</h3>
+                <!--<div class="dx-field-value"> -->
+                <div>
+                    <div id="end-time"></div>
+                </div>
+            </div>
+            <div>
+                <div id="reset" style="right:0; position: absolute;margin-right: 5px;"></div>
+            </div>  
+        </div>
+        <div class="dx-viewport">
+            <div id="details" class="textAreaCss"></div>
+        </div>
+        <div class="dx-viewport">
+            <div class="floatCss">
+                <div class="options">
+                    <span id="span1" class="spanClass">View By:</span>
+                    <div id="selectBox1" class="dx-selectbox"></div>
+                </div>            
+                <div id="chart1" class="chart"></div>
+            </div>           
+            
+            <div class="floatCss">
+                <div class="options">
+                    <span id="span2" class="spanClass">View By:</span>
+                    <div id="selectBox2" class="selectbox"></div>
+                </div> 
+                <div id="chart2" class="chart"></div> 
+            </div>
+                       
+        </div>
+        <div class="dx-viewport">
+            <div class="floatCss">
+                <div class="options">
+                    <span id="span3" class="spanClass">View By:</span>
+                    <div id="selectBox3" class="selectbox"></div>
+                </div> 
+                 <div id="chart3" class="chart"></div>
+             </div>
+             <div class="floatCss">
+                <div class="options">
+                    <span id="span4" class="spanClass">View By:</span>
+                    <div id="selectBox4" class="selectbox"></div>
+                </div> 
+                 <div id="chart4" class="chart"></div>
+             </div>
+         </div>
+    </div>
+</div>
+<div id="loadIndicatorContainer"></div>

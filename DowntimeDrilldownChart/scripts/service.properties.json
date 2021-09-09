@@ -1,0 +1,4 @@
+{
+    "gridDataURL": "cbm-dvs-service/sensor-data",
+    "gridActionsURL": "sql-datasource-service/executeStoreProc?storedProcName="
+}

@@ -1,0 +1,124 @@
+.selectFlex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+.selectFlex > div{
+    padding:0  6px;
+    width:280px;
+}
+.dx-dropdowneditor-active .dx-texteditor-buttons-container{
+    background: transparent !important;
+}
+/*#searchButton{
+    margin-top:14px !important;
+}*/
+/*#header-title{
+    font-size:24px;
+    font-weight: bold;
+    padding: 0 10px 0 4px;
+}*/
+
+.header-title{
+    font-size:24px;
+    font-weight: bold;
+    padding: 0 10px 10px 4px;
+    color:#00305E;
+}
+
+/*#kpigridContainer{
+    padding: 5px;
+}*/
+.date-flex{
+    display:flex;
+    flex-direction: column;
+}
+.date-flex .dx-field-value{
+    width:280px;
+}
+input.dx-texteditor-input{
+    border-bottom: none;
+    margin-top:0;
+    margin-bottom: 0;
+}
+#moreData{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+h1{
+    margin:0;
+}
+/*h3.h3text-color {
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: initial;
+}*/
+
+.dx-box-item-content .dx-field-item-label-text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.dx-field-item-label-content {
+    text-align:left;
+    margin-right: 15px;
+}
+
+.dx-field-item-label-text {
+        color: #000000;
+        text-align:left;
+        margin-right: 15px;
+}
+
+.dx-datagrid-rowsview .dx-texteditor-input{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.dx-datagrid-form-buttons-container {  
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+
+.dx-button-content{  
+font-size: 15px;
+font-weight: bold;
+color:#00305E;
+}
+
+.chart{
+    padding: 5px;
+    width: 600px;
+    height: 400px;
+}
+
+.options{
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.spanClass{
+    float: left;
+    margin: 10px;
+}
+
+.floatCss{
+    float: left;
+    width: 50%
+}
+
+.textAreaCss{
+    font-size: 25px !important; 
+    font-weight: 200 !important;
+    margin: 5px 0px 5px 0px !important;
+    background-color: whitesmoke !important;
+    border-color: transparent !important;
+}

@@ -1,0 +1,162 @@
+{
+    "typeName": "DowntimeBreakdown",
+    "type": "",
+    "pluginId": "DowntimeBreakdown",
+    "category": "General",
+    "description": {
+        "title": "DowntimeBreakdown",
+        "overview": "DowntimeBreakdown Chart is used to show the Downtime Breakdown in the chart format."
+    },
+    "info": {
+        "version": "0.0.1",
+        "updated": "August 11, 2021",
+        "size": "200KiB",
+        "developer": "GE Digital"
+    },
+    "origin": "custom",
+    "customIcon": "/custom/default/DowntimeBreakdown/images/Downtime.png",
+    "placeholder": "/custom/default/DowntimeBreakdown/images/Downtime.png",
+    "preview": "/custom/default/DowntimeBreakdown/images/Downtime.png",
+    "scripts": [
+        "dx.common.css",
+        "mestheme.css",
+        "pluginLocalizer.js",
+        "locale-settings.js",
+        "dx.all.js"
+    ],
+    "libraries": {
+        "devextreme": {
+            "scriptName": "dx.all",
+            "version": "20.1.7"
+        }
+    },
+    "isNotAllowToAddFields": true,
+    "fieldsDescription" :{
+        "DepartmentJsonData": "The <b>DepartmentJsonData</b> field is used to set the Department Json Data. <br>",
+        "LineLocationJsonData": "The <b>LineLocationJsonData</b> field is used to set the Line Location Json Data. <br>",
+        "UnitJsonData": "The <b>UnitJsonData</b> field is used to set the Unit Json Data. <br>",
+        "RefreshButtonClicked": "The <b>RefreshButtonClicked</b> field is used to refresh the dataon the dashboaard. <br>"
+	},
+    "data": [
+        {
+            "type":"single",
+            "id":"DepartmentJsonData", 
+            "title":"DepartmentJsonData",
+            "fieldName":"DepartmentJsonData"
+        },
+        {
+            "type":"single",
+            "id":"LineJsonData",
+            "title":"LineJsonData",
+            "fieldName":"LineJsonData"
+        },
+        {
+            "type":"single",
+            "id":"UnitJsonData",
+            "title":"UnitJsonData",
+            "fieldName":"UnitJsonData"
+        },
+        {
+            "type":"single",
+            "id":"DowntimeJsonData",
+            "title":"DowntimeJsonData",
+            "fieldName":"DowntimeJsonData"
+        },
+        {
+            "type":"single",
+            "id":"DataGridJsonData",
+            "title":"DataGridJsonData",
+            "fieldName":"DataGridJsonData"
+        },
+        {
+            "type":"single",
+            "id":"RealtiveDatesJsonData",
+            "title":"RealtiveDatesJsonData",
+            "fieldName":"RealtiveDatesJsonData"
+        }
+    ],
+    "commands":[
+		{
+			"title": "Selected Department Value Changed", 
+			"id": "SelectedDepartmentValueChanged",
+			"targets":[
+				{
+					"title": "Department Value Changed",
+					"id":"DepartmentValueChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected Line Value Changed", 
+			"id": "SelectedLineValueChanged",
+			"targets":[
+				{
+					"title": "Line Value Changed",
+					"id":"LineValueChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected Unit Value Changed", 
+			"id": "SelectedUnitValueChanged",
+			"targets":[
+				{
+					"title": "Unit Value Changed",
+					"id":"UnitValueChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected Downtime Value Changed", 
+			"id": "SelectedDowntimeValueChanged",
+			"targets":[
+				{
+					"title": "Downtime Value Changed",
+					"id":"DowntimeValueChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected Start Time Changed", 
+			"id": "SelectedStartTimeChanged",
+			"targets":[
+				{
+					"title": "Start Time Changed",
+					"id":"StartTimeChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected End Time Changed", 
+			"id": "SelectedEndTimeChanged",
+			"targets":[
+				{
+					"title": "End Time Changed",
+					"id":"EndTimeChanged"
+				}
+			]
+        },
+        {
+			"title": "Selected Relative Date Changed", 
+			"id": "SelectedRelativeDateChanged",
+			"targets":[
+				{
+					"title": "Relative Date Changed",
+					"id":"RelativeDateChanged"
+				}
+			]
+        },
+        {
+            "title":"RefreshButtonClicked",
+            "id":"RefreshButtonClicked",
+            "targets":[{
+                "title":"RefreshButtonClicked",
+                "id":"RefreshButtonClicked"
+            }]
+        }
+	],
+    "mock":{
+        "DepartmentJsonData":56,
+        "DepartmentValue":"DepartmentId"
+    }
+}
